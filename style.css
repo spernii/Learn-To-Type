@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+html, body{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(247, 237, 211);
+}
+label{
+    font-size: 30px;
+    font-weight: 100;
+}
+h2{
+    font-weight: 400;
+}
+.trunchi{
+    position: absolute;
+    height: 100vh;
+    opacity: 0.8;
+    z-index: -3;
+    user-select: none;
+}
+.creanga{
+    position:absolute;
+    height: 100vh;
+    opacity: 0.8;
+    z-index: -3;
+    user-select: none;
+}
+.frunze{
+    position:absolute;
+    width: 90vw;
+    opacity: 1;
+    z-index: -3;
+    user-select: none;
+}
+.inputs{
+    position: absolute;
+    display: flex;
+    width: 40%;
+    z-index: 2;
+    top: 60px;
+    left: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.hands-position{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.corner-foto{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+}
+.firstinputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondinput{
+    margin:20px 0;
+}
+.letter-background{
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    
+}
+.mistake-background{
+    background-color: red;
+    color:white;
+    opacity: 0.6;
+
+}
+
+#blur{
+    width:53.5%;
+    height: 32%;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: rgb(192, 192, 183);
+    opacity: 0.9;
+    z-index: 2;
+    cursor: pointer;
+    display: block;
+}
+#blur h1{
+    margin: 110px 0;
+    text-align: center;
+    opacity: 1;
+    z-index: 3;
+}
+#text-field{
+    width:50%;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border: solid 2px black;
+    font-family: 'Inconsolata', monospace;
+    box-shadow: 4px 20px 24px -15px rgba(0,0,0,0.75);
+    font-size: 25px;
+    padding: 10px 30px;
+    line-height: 30px;
+    word-wrap: normal;
+}
+#letters{
+    background-color: white;
+    height: 30px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 100;
+}
+#letters[type="text"]{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+#mistakes-score{
+    background-color:white;
+    display: inline-block;
+    font-weight: 100;
+    border: black  solid 2px;
+    width: 60px;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    font-weight: 500;
+}
+#generate-button{
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+    width:120px ;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 20px;
+    color:black;
+    background-color: #C37C7C;
+    outline: none;
+    transition: 0.5s ease-out;
+    box-shadow: 4px 20px 24px -15px rgba(0,0,0,0.75);
+}
+#wordCounter{
+    background-color: white;
+    height: 30px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 100;
+    width: 50px;
+}
+#wordCounter[type="text"]{
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+}
+#errorCounter p{
+    position: absolute;
+    height: 20px;
+    left:320px;  
+    top:61px;  
+    
+}
+#generate-button:hover{
+    cursor: pointer;
+    background-color: #855151;
+}
+@media (max-width:1000px){
+    #blur{
+        width:56%;
+        height: 32.5%;
+        bottom: 200px;
+        margin-top:20px;
+    }
+    #text-field{
+        margin-top:20px;
+    }
+    #letters{
+        width:150px;
+    }
+    .inputs{
+        width:600px;
+    }
+   .hands-position img{
+    height: 300px;
+   }
+   .hands-position{
+       bottom: 20px;
+   }
+}

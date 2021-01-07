@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typer</title>
+</head>
+<body>
+   <div class="container">
+        <div class="inputs">
+            <div class="firstinputs">
+                <label for="letters"> Enter Letters:
+                    <input type="text" id="letters">
+                </label>
+                <button id="generate-button" fire>Generate Text</button>
+            </div> 
+            <div class="secondinput">
+                <label for="wordCounter"> How many words:
+                    <input type="text" id="wordCounter">
+                </label>
+                <div id="errorCounter">
+                    <p>Enter values between 1 and 30.</p>
+                </div>
+                <h2>Mistakes: <span id="mistakes-score">0</span></h2>
+            </div>
+        </div>
+        <div class="text-board">
+            
+            <div id="blur">
+                <h1>Click to start writing...</h1>
+            </div>
+
+            <div id="text-field">
+           
+            </div>
+        </div>
+
+        <div class="hands-position">
+            <img src="img/hands.png" alt="">
+        </div>
+        <div class="copac">
+            <img src="img/trunchi.svg" alt="" class="trunchi" draggable="false" sele>
+            <img src="img/cranga.svg" alt=""  class="creanga" draggable="false">
+            <img src="img/leaves.svg" alt=""  class="frunze" draggable="false">
+        </div>
+    <img src="img/background.svg" alt="" class="corner-foto">
+   </div>
+   <script src="js/app.js"></script>
+</body>
+</html>

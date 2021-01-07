@@ -1,0 +1,32 @@
+<svg width="173" height="1024" viewBox="0 0 173 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-21" y="-13.4933" width="35" height="331.762" transform="rotate(-17.4691 -21 -13.4933)" fill="#857676"/>
+<rect x="-47" y="437.507" width="35" height="286" transform="rotate(-17.4691 -47 437.507)" fill="#857676"/>
+<rect x="-40" y="343.507" width="35" height="286" transform="rotate(-17.4691 -40 343.507)" fill="#C0ADAD"/>
+<rect x="122.572" y="883" width="35" height="286" transform="rotate(42.0541 122.572 883)" fill="#C0ADAD"/>
+<rect x="89.3491" y="532" width="35" height="286" transform="rotate(51.0272 89.3491 532)" fill="#BD8C8C"/>
+<rect x="87.5633" y="164.602" width="35" height="149.7" transform="rotate(51.0272 87.5633 164.602)" fill="#BD8C8C"/>
+<rect x="-66" y="33.5067" width="35" height="313.779" transform="rotate(-17.4691 -66 33.5067)" fill="#B4ADAD"/>
+<rect x="-47" y="260.504" width="34.9917" height="298.724" transform="rotate(-17.4691 -47 260.504)" fill="#857676"/>
+<rect x="50.5826" y="677.536" width="35" height="280.728" transform="rotate(-17.4691 50.5826 677.536)" fill="#855151"/>
+<rect x="120.78" y="720.863" width="35" height="340.055" transform="rotate(42.0541 120.78 720.863)" fill="#C0ADAD"/>
+<rect x="158.039" y="826.525" width="35" height="234.662" transform="rotate(65.2107 158.039 826.525)" fill="#BD8C8C"/>
+<rect x="-17.4904" y="647.124" width="34.9917" height="297.026" transform="rotate(-17.4691 -17.4904 647.124)" fill="#857676"/>
+<path d="M86.697 -13.7502L121.42 -9.35635L89.7231 241.131L62.3951 231.329L86.697 -13.7502Z" fill="#855151"/>
+<rect x="28.2051" y="425.654" width="35" height="228.019" transform="rotate(18.1814 28.2051 425.654)" fill="#855151"/>
+<rect x="28" y="333.507" width="35" height="286" transform="rotate(-17.4691 28 333.507)" fill="url(#paint0_linear)"/>
+<rect x="116.413" y="576.518" width="35" height="247.998" transform="rotate(28.4324 116.413 576.518)" fill="url(#paint1_linear)"/>
+<rect x="62.1328" y="227" width="35" height="286" transform="rotate(20.7083 62.1328 227)" fill="#855151"/>
+<rect x="149.644" y="560.577" width="35" height="369.477" transform="rotate(51.6218 149.644 560.577)" fill="#BD8C8C"/>
+<path d="M141.679 913L167.852 936.238L64.1726 1053.01L38 1029.77L141.679 913Z" fill="#855151"/>
+<rect x="2" y="-48.858" width="35" height="163.97" transform="rotate(-27.4645 2 -48.858)" fill="#855151"/>
+<defs>
+<linearGradient id="paint0_linear" x1="11.3357" y1="508.048" x2="73.1415" y2="506.531" gradientUnits="userSpaceOnUse">
+<stop offset="0.109375"/>
+<stop offset="0.5" stop-color="#855151"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="99.749" y1="727.866" x2="161.543" y2="726.118" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.494792" stop-color="#855151"/>
+</linearGradient>
+</defs>
+</svg>
